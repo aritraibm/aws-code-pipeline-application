@@ -10,7 +10,7 @@ public class DemoController {
 
 	@GetMapping(path = "/gateway")
 	public String gateway() {
-		return "Hello World! from EBS (thru CodePipeline) with Email";
+		return "Hello World! from EBS (thru CodePipeline) with Email!";
 	}
 
 }
